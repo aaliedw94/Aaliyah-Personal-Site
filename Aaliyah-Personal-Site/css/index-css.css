@@ -1,0 +1,199 @@
+*{
+    font-family: Arial; /*added the Arial font family to all text, except the paragraphs in the content area*/
+  }
+  
+  header {
+    background-color: #180d0d; 
+  }
+
+  .btn{
+    background-color: #039b91;
+    border-style: dotted;
+    border-radius: 50%;
+    border-width: 0.5px;
+    border-color:rgb(0, 0, 0);
+    color:#d6f8f8;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-size:16px;
+    
+  }
+
+  .btn:hover {
+    border-color: #cf7f76;
+    border-radius: 25%;
+    border-width: 0.5px;
+    background:#8fff52fc;
+    color: rgb(37, 13, 13);
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+}
+  
+  /*Function for table header*/
+  .table-header {
+    display: grid;
+    grid-template: auto auto auto auto auto auto;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 5px;
+  }
+  
+  .smileyimg {
+    /* display:grid; */
+    width: 150px;
+    margin-left: auto;
+    height: 75px;
+  }
+  
+  nav {
+    color: blue;
+    width: 100%;
+    position: relative;
+  }
+  /*Making the color of the text in our navigation bar white*/
+  .a-style {
+    color: rgb(255, 255, 255);
+  }
+  
+  /*background image for the page*/
+  body {
+    background-image: url("../media/lightsign.jpg");
+    background-size: cover;
+    color: #2F4F4F;
+  }
+  /*Styling for my selfie*/
+  .selfimage {
+    display: grid;
+    width: 300px;
+    margin-left: 10%;
+    height: 400px;
+    filter: drop-shadow(10px 10px 10px black);
+  }
+  
+  .td-self {
+    width: 35%;
+  }
+  
+  .td-search {
+    border-style:solid;
+    padding:5px;
+  }
+  /*Adding background color, border w/ border color, and indentation for text*/
+  p {
+    text-indent: 20px;
+    display: grid;
+    border-style: inset;
+    border-color: red;
+    border-radius: 5px;
+    background-color: #FFEBCD;
+    padding: 10px;
+  }
+  
+  .p_link { /*For the paragraph with a link included, having a grid display caused the link to appear on a seperate line.*/
+    text-indent: 20px;
+    display: block;
+    border-style: inset;
+    border-color: red;
+    border-radius: 5px;
+    background-color: #FFEBCD;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    background-image: radial-gradient(circle, rgba(222, 251, 63, 1) 11%, rgba(225, 70, 252, 1) 100%);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    animation: h1-test 3s ease-in;
+    text-shadow: 3px 5px 10px #c24e1c;
+    font-style: italic;
+    padding-top: 10px
+  }
+
+  @keyframes h1-test {
+    0% {
+      opacity: 100%;
+      
+    }
+    50%{
+      opacity: 50%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  
+  h2 {
+    font-family: monospace;
+    color: #483D8B;
+    background-image: radial-gradient(circle, rgba(222, 251, 63, 1) 11%, rgba(225, 70, 252, 1) 100%);
+    background-size: 100%;
+    font-size: 24px;
+    text-decoration: underline;
+    border-style:solid;
+    border-color: yellow;
+  }
+  
+  h3{
+    color: rgb(83, 207, 38);
+    background-color: rgb(112, 112, 112);
+    border-style: dashed;
+    border-color: black;
+    padding: 5px;
+  }
+  
+  /*The two logo functions below are for the logo images that will take users to my personal social media pages*/
+  .logo-img{
+    width:60px;
+  }
+  
+  .logos{
+     width: 100px;
+      height: 30px;
+  }
+  
+  .list {
+    display: grid;
+    border-style: inset;
+    border-color: red;
+    border-radius: 5px;
+    background-color: #FFEBCD;
+    padding: 20px;
+  }
+  
+  iframe {
+    width: 350px;
+    height: 350px;
+    border: 5px;
+  }
+  
+  /*For the links in the footer*/
+  .foot {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-style: inset;
+    border-radius: 5px;
+    background-color: rgb(129, 129, 129);
+    padding: 5px;
+  }
+  
+  /*This makes the search text white*/
+  .label-search {
+    color:white;
+  }
+  /*Makes all other labels the color violet*/
+  label {
+    color:violet;
+  }
+  /*Functions below are ensuring the header for the mini blog is aligned to the right and matches the width of the paragraph below*/
+  .blog-head{
+    text-align:right;
+  }
+  
+  .blog-td{
+    width:100px;
+  }

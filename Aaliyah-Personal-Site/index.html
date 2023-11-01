@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<form action="/example_action.html" target="_blank" method="post">
 
   <head>
     <meta charset="UTF-8">
@@ -12,81 +11,78 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="pscontroller.png">
     <link rel="stylesheet" href="./css/index-css.css">
-    <script src="text/javascript" src="./javascript/java.js"></script>
   </head>
-  
 
   <body>
     <!--header for the page with branding, navigation bar and search bar-->
+    
     <header>
     <h1>
       <center>Aaliyah Edwards | Aspiring Software/Web Developer <img class="smileyimg" src="./media/smiley.png" alt="smiley"></center>
     </h1>
+    </header>
+    <div class = "container container-dark-mode">
     <table class="table-header">
       <tr>
         <td>
           <nav class="nav-menu"> <!--created buttons for my navigation bar-->
             <a href="./about-us.html" class="btn btn-hover" target="_blank;">About Me</a>
-            <a href="#" class="btn btn-hover" target="_blank">Collection</a>
+            <a href="./projects.html" class="btn btn-hover" target="_blank">Projects</a>
             <a href="./photos/photos.html" class="btn btn-hover" target="_blank">Photos</a>
             <a href="./contact-us.html" class="btn btn-hover" target="_blank">Contact Info</a>
-            <a href="#" class="btn btn-hover" target="_blank">Blog</a>
+            <a href="./blog.html" class="btn btn-hover btn-hover" target="_blank">Blog</a>
         </td>
         </nav>
         <td class="td-search"> 
           <label class="label-search" for="search">Search: </label>
           <input type="text" id="search" name=search><br>
         </td>
+        <div class ="ld-container"> <!--This div is for the light/dark mode toggle-->
+        <td><p class ="mode-stat p-dark">Light Mode</p>
+        <label class = "light-dark-switch">
+          <input type="checkbox" id="mode">
+          <span class ="slider"></span>
+        </label>
+      </td>
+      </div>
       </tr>
     </table>
-  </header>
 
     <!--table to seperate the content area neatly. Text on one side, images and media content on the other-->
     <table>
       <tr>
         <td>
           <h2>Welcome aboard!!</h2>
-          <p>Hello and thank you for visiting my personal site! My name is Aaliyah Edwards and I am a future software/web developer in the making. I have created this personal page to document my journey and eventually show off my work as I learn more aspects of this field. At the top of my page is a navigational bar to each section of my page. I will expand more on this as time goes on and I learn more information. Below will explain the different sections of my page based on the navigation bar at the top of the page. <br>
-          <ul class="list">
-            <li>The about me section will contain my biography. I have it above on my main page, but once we learn more about creating seperate pages and linking them together, I will add more information about myself there!</li>
-            <li>The collections section will contain any coding work/experiments that I've done.
-            <li>My photos section will contain photos that I've taken of my family, friends, food and other cool things as well. I will also post pictures of the results of code that I've done. </li>
-            <li>Contact info will have various forms of contact information for anyone that would like to reach me. There is contact information at the bottom of my main page as well. </li>
-            <li>My blog section will document my professional journey to becoming a software/web developer! I may also do a personal blog later where I talk about various topics, even ones unrelated to the field. </li>
-          </ul>
-          <h2>About Me</h2>
-          <p>My name is Aaliyah and I'm currently 28 years old and live in Tulsa, OK. I work part-time at the DOK2 Amazon site in Tulsa as a Sortation Associate for the Prime For Same Day Team and have been on this team for almost two years (August 20th). I also work for Hillcrest Medical Center in Tulsa and have been there for over 3 and a half years! Some of my favorite hobbies include gaming, reading books, anime, spending time with family, and shopping. I am currently a student of a Software/Web Development course through an organization called Correlation One. This site is the start of my work that I will be displaying as part of my learning journey in web development.</p>
-          <p class="p_link">I have a bit of a background in Computer Science and I'd like to briefly talk about it. I was previously studying at Tulsa Community College and Oklahoma State University (Go Pokes). I graduated from TCC with an AS in Mathematics in 2015 and an AS in Computer Information Systems after I changed my major and started my journey again in 2019. I attended OSU-Tulsa starting in 2019 as well and was majoring in Computer Science. I'm actually close to graduating, but I had stopped attending in 2022 after going through some personal things in life. I plan to go back and finish getting my Bachelor's to add to my credentials. I have added my <a href="https://www.linkedin.com/in/aaliyah-edwards-4364977b/" target="_blank">LinkedIn</a> here, and at the bottom of the page, if you'd like to view more information regarding my professional upcoming. If you'd like a glimpse of my personal life, I'm mainly on Facebook and Twitter, which I've plugged the links for at the bottom of the page. </p>
+          <p  class="my_item left p_content">
+            Hello everyone, my name is Aaliyah Edwards and I am pleased to welcome you to my personal site!! 
+            I am an aspiring software developer and I kickstarted my journey as of July 2023, after joining a program through Correlation One, sponsored by Amazon, 
+            in which I'm learning skills such as HTML5, CSS, UI/UX Design, JavaScript, and more. This site was created as a part of my learning journey and allows me the opportunity to showcase my skill set. 
+            As I continue to hone my development skills, I will update this page with more features and information to reflect the skills that I have acquired. Feel free to explore my site for further information, such as my updated professional experience, background information on myself, my growing portfolio of personal/group work, and more. 
+            I appreciate you for stopping by and feel free to contact me through the various forms on my contact info page.
+          </p>
         </td>
-        <td class= "td-self"><img class="selfimage" src="./media/IMG_2189.JPEG" alt="Picture of myself"></td>
-      </tr>
-      <tr> <!--added a couple of neat iframes from giphy, links below their line of code-->
-        <td><iframe src="https://giphy.com/embed/nGtOFccLzujug" class="giphy-embed" allowFullScreen></iframe>
-          <!--<p><a href="https://giphy.com/gifs/writing-nGtOFccLzujug"> --></a>
-          <iframe src="https://giphy.com/embed/114RdYSvd1GuvC" class="giphy-embed" allowFullScreen></iframe>
-          <!--<p><a href="https://giphy.com/gifs/114RdYSvd1GuvC"> --></a>
-        </td>
-        <td class="blog-td">
-          <h2 class="blog-head">Mini Blog!</h2>
-          <p>My journey to becoming a web developer has been quite a ride. I feel that I should start at the point when my interest of computers peaked. I had always been interested in computers since I was very young. I considered majoring in something related to computers after graduating high school, but chose to major in Mathematics, which is my favorite subject. I changed my major years later to Computer Science because I wanted to learn coding and pursue a career in this field. <br> I am currently in a Software/Web Development course through Correlation One, sponsored by Amazon. I joined this course due to my interest in Computer Science. Software Development is the main field that I'm interested in, so after looking through our company's Career Choice site, that offers PLENTY of opportunities for further education of many fields, I found this program and felt that I would be a great fit due to my background. Also, with everything that the program offers outside of the curriculum such as professional development resources, assistance with job placement, and more, I knew that this opportunity would help propel me further. <br> We started out with learning HTML, which was fun. We have just finished learned about CSS, which was exciting as it makes styling our pages SO MUCH better and easier! I can't wait to create more expansive works as I hone my skills to show all of you! Thank you as well for visiting my site. If you have any questions, comments, concerns or feedback that you'd like to leave, don't hesitate to fill out the information at the bottom of the page or visit me at any of the links below!
+        <td class= "td-self">
+            <img class="self-image my_item up" src="./media/Me2.jpg" alt="Picture of myself">
         </td>
       </tr>
     </table>
-
     <!--Footer function for the page. It will include a rating bar for the page and
     allow visitors to fill out their contact information for any questions, comments or feedback-->
     <footer>
+      <form action="/example_action.html" id="contactForm" target="_blank" method="post" novalidate>
+      <div class="input-group my_item my_form left">
       <center>
         <table>
           <tr>
             <td>
-              <h3>Questions/Comments/Feedback &#128187&#10067<h3>
+              <div id="contact-successful">Thank you for reaching out! We will get back to you as soon as possible!</div>
+                  
                   <label for="ExperienceRate"><b>Rate your Experience?</b></label>
                   <select name="Rating" id="Rating">
+                    <option value="SELECT">SELECT</option>
                     <option value="Excellent">Excellent</option>
                     <option value="Great">Great</option>
                     <option value="Decent">Decent</option>
-                    <option value="semibad">Not so great</option>
                     <option value="bad">Back to the drawing board.</option>
                   </select><br>
                   <label for="firstname">First Name: </label>
@@ -95,25 +91,26 @@
                   <input type="text" id="lastname" name=lastname><br>
                   <label for="email">Email: </label>
                   <input type="text" id="email" name=email><br>
-                  <label for="questions-comments">Questions/Comments: <br></label>
-                  <input type="text" id="questions-comments" name=questions-comments><br>
+                  <label for="questions-comments">Questions/Comments:</label> <br>
+                  <textarea id="message" name="message"></textarea><br>
                   <input type="submit" value="submit">
             </td>
-          </tr>
-          <tr>
             <td class="foot"> <!--Links to my social media pages, using the company's logos-->
-              <a href="https://www.linkedin.com/in/aaliyah-edwards-4364977b/" target="_blank"><img class="logos" src="https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png" alt="linkedin">&nbsp;</a>
-              <a href="https://codepen.io/Aaliyah-Edwards-the-vuer" target="_blank"><img class="logos" src="https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x_16397a56ea.png?_i=AA" alt="codepen"></a>
-              <a href="https://twitter.com/LiyahDanielle" target="_blank"><img class="logo-img" src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Log%D0%BE.png" alt="Twitter logo"></a>
+              <a href="https://www.linkedin.com/in/aaliyah-edwards-4364977b/" target="_blank"><img class="logos" src="https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png" alt="linkedin">&nbsp;</a><br>
+              <a href="https://codepen.io/Aaliyah-Edwards-the-vuer" target="_blank"><img class="logos" src="https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x_16397a56ea.png?_i=AA" alt="codepen"></a><br>
+              <a href="https://twitter.com/LiyahDanielle" target="_blank"><img class="logo-img" src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Log%D0%BE.png" alt="Twitter logo"></a><br>
               <a href="https://www.facebook.com/aaliyah.edwards.14/" target="_blank"><img class="logo-img" src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="facebook"></a>
             </td>
           </tr>
         </table>
       </center>
+      </div>
     </footer>
+  </div>
     <!--bootstrap's javascript documentation-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./javascript/java.js"></script> <!--Referencing my JS-->
+  </div>
+  </form>
   </body>
-</form>
-
 </html>

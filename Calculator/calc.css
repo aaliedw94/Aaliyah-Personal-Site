@@ -1,0 +1,72 @@
+body {
+    background-color: rgba(87, 3, 100, 0.178);
+}
+.container {
+    min-height: 80vh;
+    margin-block: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(87, 3, 100, 0.178);
+  }
+  
+  .container > .row {
+    flex-basis: 100%;
+  }
+  .card-body {
+    padding: 0;
+    background-color: rgba(87, 3, 100, 0.178);
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: rgb(232, 102, 254);
+  }
+  
+  .btn-light {
+    background-color: #e5e5e5;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: rgb(118, 68, 255);
+  }
+  
+  .btn-warning {
+    background-color: #ff9500;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-block {
+    width: 80%;
+  }
+  
+  #zero-row {
+    margin-top: 0.7rem;
+  }
+  
+  .btn-block#zero {
+    width: 91%;
+    background-color: rgb(34, 249, 34);
+  }
+  
+  .btn-group {
+    display: flex;
+    background-color: green;
+  }
+  
+  .btn-group-vertical {
+    gap: 0.5235rem;
+    width: 80%;
+    
+  }
+  
+  .btn-group-vertical > * {
+    width: 100%;
+    background-color: green;
+  }
